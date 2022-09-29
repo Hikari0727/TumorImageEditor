@@ -13,9 +13,7 @@
 
 
 ## Background
-
-### Since AI programs are not user-friendly.We decided to integrate AI into visualization programs to assist doctors in diagnosis.
-The project is divided into two main parts, the first of which is NLP. The doctor uses voice input instructions. The second part is image editing, including functions such as the designation of the image zoom in and out area. Physician assistance is also given to the area of the delineated tumor.
+Brain tumor segmentation is an important part of medical image processing. Its purpose is to help doctors make accurate diagnosis and treatment. It has important practical value in the field of clinical brain medicine. The research of MRI brain tumor image segmentation has made some significant progress, especially the development of deep learning provides new ideas for the research in this field. We want to create a brain tumor image editor based on natural language processing and deep learning to facilitate doctors to perform relevant image operations.
 ## Install
 
 use git program with blow code
