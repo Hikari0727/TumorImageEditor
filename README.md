@@ -50,7 +50,11 @@ We want to encapsulate it into an exe file for direct use by doctors
 
 ## API
 
-### Waiting for updating
+
+https://user-images.githubusercontent.com/104084176/196747209-1ddeb8a4-a9f5-454f-be1e-1fecc3ca11c3.mp4
+
+
+
 
 
 ## Contributing
