@@ -6,7 +6,7 @@
 
 - [Background](#background)
 - [Install](#install)
-- [Bladder](#bladder)
+- [BladderImgSegmentation](#bladderimgsegmentation)
 - [API](#api)
 - [Contributing](#contributing)
 - [License](#license)
@@ -27,11 +27,18 @@ git clone https://github.com/Hikari0727/TumorImageEditor.git
 ```
 
 
-## Bladder
+## BladderImgSegmentation
 ### Image display 
 ![2-IM127](https://user-images.githubusercontent.com/104084176/203749615-4861b5d0-73a0-4f0c-a468-1ece94f4e3d9.png)
 ### Labels display 
 ![2-IM127](https://user-images.githubusercontent.com/104084176/203749743-13cb99f0-5bcf-472b-881b-f4ff09f30701.png)
+### Development environment 
+python                    3.7.9
+
+torch                     1.8.1     
+
+cuda                      10.0
+
 
 
 ## API
