@@ -6,14 +6,18 @@
 
 - [Background](#background)
 - [Install](#install)
-- [BraTS](#brats)
+- [Bladder](#bladder)
 - [API](#api)
 - [Contributing](#contributing)
 - [License](#license)
 
 
 ## Background
-Brain tumor segmentation is an important part of medical image processing. Its purpose is to help doctors make accurate diagnosis and treatment. It has important practical value in the field of clinical brain medicine. The research of MRI brain tumor image segmentation has made some significant progress, especially the development of deep learning provides new ideas for the research in this field. We want to create a brain tumor image editor based on natural language processing and deep learning to facilitate doctors to perform relevant image operations.
+Deep learning has a powerful ability to generalize features from data rather than manually identifying features based on domain-specific knowledge. Deep learning has rapidly become a mainstream artificial intelligence technique in recent years and has significantly improved the performance of medical imaging applications.
+
+**Tumor image editor** is mainly **a fusion of natural language and image segmentation**, the purpose is to help doctors in clinical diagnosis.
+
+深度学习具有强大的从数据中归纳特征而非根据领域特定知识手工识别特征的能力。深度学习近年来已迅速成为主流的人工智能技术，并显著提高了医学影像应用的性能。肿瘤图像编辑器主要是自然语言与图像分割的融合，目的是为了帮助医生的临床诊断。
 ## Install
 
 use git program with blow code
@@ -23,37 +27,17 @@ git clone https://github.com/Hikari0727/TumorImageEditor.git
 ```
 
 
-## BraTS  
-
-### Data Preparation
-MPMRI data set, including training set (1251 cases) and verification set (219 cases)
-There are four types of modal data: flair, t1ce, t1, t2. The data size of each mode is 240 x 240 x 155, and they share split labels.
-![15341664432255_ pic](https://user-images.githubusercontent.com/104084176/192958891-66f2c1b8-6617-4af8-a1d4-8ef62039b11b.jpg)
-
-Download the BraTS dataset. The structure of the dataset should be as follows:
-BraTS2021_00000   
-├── BraTS2021_00000_flair.nii.gz  
-├── BraTS2021_00000_seg.nii.gz   
-├── BraTS2021_00000_t1ce.nii.gz  
-├── BraTS2021_00000_t1.nii.gz  
-└── BraTS2021_00000_t2.nii.gz  
-
-View images and labels with 3D Slicer
-![15351664432860_ pic](https://user-images.githubusercontent.com/104084176/192959008-2c52b316-86c6-4c03-8279-f78049214352.jpg)
-
-### Data Preprocessing 
-
-```
-```
-We want to encapsulate it into an exe file for direct use by doctors
+## Bladder
+### Image display 
+![2-IM127](https://user-images.githubusercontent.com/104084176/203749615-4861b5d0-73a0-4f0c-a468-1ece94f4e3d9.png)
+### Labels display 
+![2-IM127](https://user-images.githubusercontent.com/104084176/203749743-13cb99f0-5bcf-472b-881b-f4ff09f30701.png)
 
 
 ## API
 ### We use Xunfei's interface to implement speech recognition（python）
 
 https://user-images.githubusercontent.com/104084176/196747209-1ddeb8a4-a9f5-454f-be1e-1fecc3ca11c3.mp4
-
-
 
 
 
@@ -64,7 +48,7 @@ QIU HOUMING <br>
 ZHANG XINYI<br>
 HUANG QIANYI
 
-### Any optional sections
+
 
 ## License
 
